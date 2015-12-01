@@ -5,9 +5,9 @@ var cheerio = require('cheerio');
 var app     = express();
 
 
-//Scrapper LeBonCoin
+//Scrapper RemixJob
 app.get('/GETLBC', function(req, res){
-	url = 'http://www.leboncoin.fr/voitures/870647900.htm?ca=12_s';
+	url = 'https://remixjobs.com/emploi/Developpement/Stage-Developpement-Web-sur-un-site-d-oeuvres-d-Art/33077';
 
 	
 	request(url, function (error, response, html) {
